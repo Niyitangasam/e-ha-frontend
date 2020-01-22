@@ -14,11 +14,11 @@ addons:
       - ~/.cache
   
   install:
-    - npm install
-    - npm ci
+    - yarn install
+    - yarn ci
   
   before_script:
-    - npm start --silent &
+    - yarn start --silent &
   
   script:
-    - npm run test:coverage
+    - yarn run test:coverage
