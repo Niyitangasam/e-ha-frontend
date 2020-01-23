@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject",
     "test:coverage": "NODE_ENV=test jest --coverage --colors"
   },
@@ -72,9 +72,5 @@
         "statements": 89
       }
     }
-  },
-  "devDependencies": {
-    "jest-canvas-mock": "^2.2.0",
-    "jest-enzyme": "^7.1.2"
   }
 }
